@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geoportal Quito</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="styles.css?v=4"/>
+</head>
+<body>
+
+<div class="app-layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="eyebrow">Geoportal · PostGIS + Supabase</div>
+      <h1>Geoportal Quito</h1>
+      <p>Parroquias, quebradas, ríos, reserva de biosfera y puntos de inspección del DMQ.</p>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="section-title">Capas</div>
+      <div class="capas-list" id="capasToggle"></div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="section-title">Acciones</div>
+      <div class="sidebar-btns">
+        <button onclick="cargarGeoportal()">Cargar geoportal</button>
+        <button class="secundario" onclick="centrarDMQ()">Centrar en DMQ</button>
+        <a href="formulario_inspeccion.html" target="_blank" class="btn-formulario">Formulario de inspección</a>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div id="estado"></div>
+    </div>
+  </aside>
+
+  <main class="map-container">
+    <div id="map"></div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config.js"></script>
+<script src="app.js?v=4"></script>
+</body>
+</html>
