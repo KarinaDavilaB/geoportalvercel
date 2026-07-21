@@ -16,7 +16,7 @@ Geoportal web para el Distrito Metropolitano de Quito que visualiza capas geoesp
 | Archivo | Descripción |
 |---|---|
 | `index.html` | Geoportal principal con sidebar lateral |
-| `app.js` | Configuración de 6 capas, parser WKB, carga desde Supabase |
+| `app.js` | Configuración de 5 capas, parser WKB, carga desde Supabase |
 | `styles.css` | Estilos del geoportal (sidebar, mapa, leyenda) |
 | `formulario_inspeccion.html` | Formulario de campo (UTM, parroquia, inspecciones previas, Excel) |
 | `build.js` | Script de build para inyectar env vars en config.js |
@@ -50,7 +50,6 @@ Geoportal web para el Distrito Metropolitano de Quito que visualiza capas geoesp
 | rios_dmq | polígono | #1565c0 / #42a5f5 |
 | reserva_biosfera_dmq | polígono | #2e7d32 / #66bb6a |
 | puntos_az | punto | #e65100 |
-| inspecciones_campo | punto | #eab308 (amarillo) |
 
 ---
 

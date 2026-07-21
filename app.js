@@ -76,22 +76,6 @@ const TABLAS_CONFIG = {
       ['mm-yy', 'Fecha']
     ]
   },
-  inspecciones_campo: {
-    label: 'Inspecciones de campo',
-    tipo: 'punto',
-    color: '#eab308',
-    titleField: 'tecnico',
-    popupFields: [
-      ['fecha', 'Fecha'],
-      ['hora', 'Hora'],
-      ['parroquia', 'Parroquia'],
-      ['tipo_inspeccion', 'Tipo'],
-      ['arbol_riesgo', 'Árbol de riesgo'],
-      ['comentario', 'Comentario'],
-      ['tecnico', 'Técnico'],
-      ['estado', 'Estado']
-    ]
-  }
 };
 
 // ---------------------------------------------------------------
